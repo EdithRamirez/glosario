@@ -1,0 +1,86 @@
+.category-glosario {
+	background: #000;
+}
+.logo-glosario {
+	width: 400px;
+	margin: 50px auto;
+	display: block;
+}
+#glosario {
+	position: relative;
+	margin-bottom: 100px;
+}
+.abc-letra:last-child:not(:first-child), .abc-letra:last-child:not(:first-child) {
+	float: left;
+}
+.abc-letra {
+	padding: 5px 5px;
+}
+.activo {
+    filter: saturate(200%);
+}
+.box {
+	margin: 10px auto;
+	position: absolute;
+	right: 0;
+    left: 0;
+    width: 100%;
+	max-width: 990px;
+}
+.abc-lista {
+	background: #fdf6f0;
+	padding: 20px 10px;
+}
+.abc-lista ul {
+	list-style: none;
+	margin: auto;
+	 -webkit-columns: 4;
+    -moz-columns: 4;
+    columns: 4;
+    -webkit-column-gap: 40px;
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+}
+.abc-lista ul li {
+	padding: 0 20px;
+}
+.abc-detalle {
+	background: #fefefe;
+}
+.custom-navigation {
+	position: absolute;
+	z-index: 100;
+	bottom: 0;
+	right: 0;
+	padding: 2% 4%;
+}
+.custom-navigation a img {
+	width: 45px;
+}
+.ldetalle {
+	padding: 5% 4%;
+}
+
+@media screen and (max-width: 39.9375em) {
+	.custom-navigation {
+		position: relative;
+		text-align: right;
+	}
+	.abc-lista ul {
+	    -webkit-columns: 2;
+	    -moz-columns: 2;
+	    columns: 2;
+	    -webkit-column-gap: 20px;
+	    -moz-column-gap: 20px;
+	    column-gap: 20px;
+	}
+	.abc-lista ul li {
+	    padding: 0 10px;
+	}
+}
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.custom-navigation {
+		position: relative;
+		text-align: right;
+	}
+}
